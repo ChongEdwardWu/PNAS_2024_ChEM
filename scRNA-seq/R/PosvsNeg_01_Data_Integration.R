@@ -1,7 +1,5 @@
 ### Section 0: Preparation --------------------------------------------------
 
-suppressMessages(suppressWarnings(source("/ifs1/User/yangbinVM/01.Project/wuchong/.radian_profile")))
-
 # set your work diretory
 workdir <- "/your_work_dir/R"
 setwd(workdir)
