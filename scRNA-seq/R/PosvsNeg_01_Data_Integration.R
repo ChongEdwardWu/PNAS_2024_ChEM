@@ -129,7 +129,7 @@ library(clustree)
 clustree(seu_int@meta.data, prefix = "integrated_snn_res.", return = "plot")
 
 # ! resolution choice
-res <- 0.3
+res <- 0.2
 
 # Plot 1: see group difference in clusters-UMAP
 DimPlot(seu_int,
@@ -194,7 +194,7 @@ ggplot(source_cluster, aes(x = Group, y = perc, fill = Cluster)) +
 ### Section 3: filter bad cells/clusters and or non-macrophages, if any --------------------------------------------------
 
 # ! filter bad cells/clusters and or non-macrophages, if any
-discardCl <- seu_int$seurat_clusters %in% c(2,7,8,10,12,13)
+discardCl <- seu_int$seurat_clusters %in% c(2,4,6,8)
 table(discardCl)
 discardDim <- ((seu_int[["umap"]]@cell.embeddings[,1] > 2) & (seu_int[["umap"]]@cell.embeddings[,2] < -2) |(seu_int[["umap"]]@cell.embeddings[,2] < -6))
 table(discardDim)
