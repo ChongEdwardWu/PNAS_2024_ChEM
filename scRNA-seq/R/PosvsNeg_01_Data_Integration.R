@@ -196,7 +196,7 @@ ggplot(source_cluster, aes(x = Group, y = perc, fill = Cluster)) +
 # ! filter bad cells/clusters and or non-macrophages, if any
 discardCl <- seu_int$seurat_clusters %in% c(2,4,6,8)
 table(discardCl)
-discardDim <- ((seu_int[["umap"]]@cell.embeddings[,1] > 2) & (seu_int[["umap"]]@cell.embeddings[,2] < -2) |(seu_int[["umap"]]@cell.embeddings[,2] < -6))
+discardDim <- ((seu_int[["umap"]]@cell.embeddings[,1] < -5) |(seu_int[["umap"]]@cell.embeddings[,2] > 5))
 table(discardDim)
 
 table((discardCl | discardDim))
