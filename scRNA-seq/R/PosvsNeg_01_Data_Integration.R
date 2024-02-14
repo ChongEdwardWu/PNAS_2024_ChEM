@@ -1,7 +1,7 @@
 ### Section 0: Preparation --------------------------------------------------
 
 # set your work diretory
-workdir <- "/your_work_dir/R"
+workdir <- "workdir <- "/your_work_dir/data/Peritoneal_ChAT/scRNA_seq""
 setwd(workdir)
 
 # creat diretories for figures and results
