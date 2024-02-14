@@ -6,7 +6,7 @@ graphics.off()
 gc()
 
 # !set your work diretory
-workdir <- "/your_work_dir/R"
+workdir <- "/your_work_dir/data/Peritoneal_ChAT/scRNA_seq"
 setwd(workdir)
 
 # Section 1: Load Seurat Obj---------------------------------------------------------------
