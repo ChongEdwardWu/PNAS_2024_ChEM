@@ -4,26 +4,6 @@ rm(list = ls())
 graphics.off()
 gc()
 
-suppressMessages(suppressWarnings(source("/ifs1/User/yangbinVM/01.Project/wuchong/.radian_profile")))
-
-# # install packages
-# if (!require("BiocManager", quietly = TRUE)) {
-#   install.packages("BiocManager")
-# }
-
-# BiocManager::install(c(
-#   "DropletUtils", "scater", "tidyverse", "scDblFinder", "BiocParallel",
-#   "Nebulosa", "ggplot2", "remotes", "robustbase", "future","clustifyr", "clustifyrdatahub"
-# ))
-
-# remotes::install_github(c("satijalab/seurat", "satijalab/sctransform","satijalab/seurat-wrappers"), ref = "develop")
-# remotes::install_github(c("mojaveazure/seurat-disk", "satijalab/azimuth","ggjlab/scMCA"), ref = "master")
-
-# usethis::create_github_token()
-# the current token is: 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
-# usethis::edit_r_environ()
-
-
 ### Section 1-identify unqualified clusters ------------------------------------------
 suppressMessages(suppressWarnings(library(scater)))
 
