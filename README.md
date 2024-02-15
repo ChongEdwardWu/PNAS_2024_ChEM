@@ -21,8 +21,5 @@ To use these analysis codes, ensure you have the following R packages installed:
 2. Set your working directory to where the data files are located, as specified in the scripts.
 3. Execute the scripts in R or RStudio to replicate the analysis or apply it to your datasets.
 
-# License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 # Contact
-For any queries related to the code or research, please open an issue on this GitHub repository.
+For any queries related to the code or research, please open an issue on this GitHub repository or email to wuchong5@sysu.edu.cn.
