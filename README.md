@@ -14,12 +14,5 @@ This repository contains R and Python scripts and analysis pipelines developed a
 
 - **scRNA-seq analysis**: Employed for transcriptomic profiling of the identified cholinergic macrophages, revealing insights into their functional roles during the resolution of inflammation. This comprehensive analysis sheds light on the gene expression patterns that underpin the unique functions of ChEMs, including their contributions to efferocytosis and the modulation of inflammatory responses.
 
-## Getting Started
-To use these analysis codes, ensure you have the following R packages installed: Seurat, patchwork, ggplot2, dplyr, future, rJava, xlsx, stringr, SCopeLoomR, AUCell, SCENIC, and other dependencies as mentioned in the scripts.
-
-1. Clone this repository to your local machine.
-2. Set your working directory to where the data files are located, as specified in the scripts.
-3. Execute the scripts in R or RStudio to replicate the analysis or apply it to your datasets.
-
-# Contact
+## Contact
 For any queries related to the code or research, please open an issue on this GitHub repository or email to wuchong5@sysu.edu.cn.
