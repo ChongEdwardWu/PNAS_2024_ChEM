@@ -15,4 +15,4 @@ This repository contains R and Python scripts and analysis pipelines developed a
 - **scRNA-seq analysis**: Employed for transcriptomic profiling of the identified cholinergic macrophages, revealing insights into their functional roles during the resolution of inflammation. This comprehensive analysis sheds light on the gene expression patterns that underpin the unique functions of ChEMs, including their contributions to efferocytosis and the modulation of inflammatory responses.
 
 ## Contact
-For any queries related to the code or research, please open an issue on this GitHub repository or email to wuchong5@sysu.edu.cn.
+For any queries related to the code or research, please open an issue on this GitHub repository or email to wuchong5@mail.sysu.edu.cn.
