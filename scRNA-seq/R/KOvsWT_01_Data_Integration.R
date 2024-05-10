@@ -208,13 +208,14 @@ ggplot(source_cluster, aes(x = Group, y = perc, fill = Cluster)) +
 ### Section 3: filter bad cells/clusters and or non-macrophages, if any --------------------------------------------------
 
 # ! filter bad cells/clusters and or non-macrophages, if any
-discardCl <- seu_int$seurat_clusters %in% c(19)
-table(discardCl)
+# discardCl <- seu_int$seurat_clusters %in% c(19)
+# table(discardCl)
 # discardDim <- ((seu_int[["umap"]]@cell.embeddings[,1] < -5) |(seu_int[["umap"]]@cell.embeddings[,2] > 5))
 # table(discardDim)
 
 # table((discardCl | discardDim))
-seu_filt <- seu_int[,!(discardCl)]
+# seu_filt <- seu_int[,!(discardCl)]
+seu_filt <- seu_int
 
 # ! check if the filtering is ok
 
