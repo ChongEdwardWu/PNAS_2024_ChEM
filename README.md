@@ -1,5 +1,5 @@
-# ChEM Analysis Code Repository
-Welcome to the GitHub repository for the analysis code used in the study "Cholinergic Macrophages Promote Resolution of Peritoneal Inflammation," focusing on ChAT-expressing Macrophages (ChEM).
+# Codes for “Cholinergic macrophages promote the resolution of peritoneal inflammation”
+Welcome to the GitHub repository for the analysis code used in the study "Cholinergic macrophages promote the resolution of peritoneal inflammation", which focused on ChAT-expressing Macrophages (ChEM).
 
 ## Overview
 This repository contains the computational analysis codes for our research, which elucidates the role of a novel subset of cholinergic macrophages in the resolution of acute peritonitis. By investigating ChAT-expressing macrophages (Mφs), our study highlights the critical role of the non-neural cholinergic system in regulating immune equilibrium and tissue homeostasis.
