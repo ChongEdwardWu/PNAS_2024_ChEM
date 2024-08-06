@@ -469,7 +469,3 @@ ggsave(filename = pdf_filename, plot = combined_plot, width = 15, height = 10)
 # ! save data
 saveRDS(sce, file = "InfinityFlow_Mf-step2_filtered_20231010.rds")
 # sce <- readRDS("InfinityFlow_Mf-step2_filtered_20231010.rds")
-
-
-seurat <- as.Seurat(sce, counts = "counts", data=NULL)
-library(seurat)
